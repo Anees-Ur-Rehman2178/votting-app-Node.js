@@ -5,7 +5,7 @@ Description: This is a comprehensive voting application built with Node.js,Expre
 
 ---- Features -----
 
-**User Authentication: Users can sign up and log in using their CNIC (a unique identifying number) and a password. Incorporates JWT authentication to maintain secure sessions and verify user credentials effectively.
+*User Authentication: Users can sign up and log in using their CNIC (a unique identifying number) and a password. Incorporates JWT authentication to maintain secure sessions and verify user credentials effectively.
 **Candidate Listing and Voting: Users can view a list of candidates and vote for their preferred candidate. The system ensures that each user can vote only once, preserving the integrity of the voting process.
 **Real-Time Vote Count: The application provides a live ranking of candidates based on the number of votes each has received, allowing users to see real-time updates.
 **User Profile Management: Users can view their profile information and change their password, ensuring their account's security.
