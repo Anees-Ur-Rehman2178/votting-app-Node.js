@@ -1,0 +1,16 @@
+{
+    "name" : "Hafiz Naeem",
+    "party": "Jemmet-E-Islami",
+    "age": 54,
+    "vote": [
+         {
+             "user":"",
+             "voteAt":"" 
+         },
+         {
+            "user" : "",
+            "voteAt":""
+         }
+    ],
+    "voteCount": 2
+}

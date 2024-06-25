@@ -1,0 +1,39 @@
+voting application
+WHAT????
+
+Purpose : - A functionality where voter can give vote to a particular candidate
+
+Models?
+Routes?
+
+1- sign-in/sign-up (registration)
+2- see the list of candidate
+3- one person vote at once 
+4- route which shows the list of candidates and also there live voting rank
+5- user must login with CNIC and password
+6- there should be one admin who manage all the lists of the candidate and he is not able to vote
+7- user can change their password 
+8- user can login with CNIN and password
+
+------------------------------------------------------------------------------------
+Routes
+
+1- User Authentication
+         /signup : user create account
+        /login: user login to existing account [CNIC & Password]
+
+2- voting
+      /vote/candidate: list of candidates
+     /vote/candidate/:candidateID: vote to particular candidate
+
+3- vote Count
+       /vote/count: live ranking of candidates
+
+4- User Profile
+       /user/profile: User Info
+      /profile/password: able to change password
+
+5- Admin
+      /candidate: POTS - list candidate
+     /candidate/:candidateID: PUT - update existing candidate
+    /candidate/:candidateID: Delete - delete candidate from list 
