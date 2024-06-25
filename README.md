@@ -1,4 +1,4 @@
-# votting_ap---Node.js
+# voting-ap-Node.js
 Project- [ Voting_Application ]
 
 Description: This is a comprehensive voting application built with Node.js,Express.js and MongoDB for data storage, designed to enable secure and straightforward voting processes using JWT authentication. The application features solidly built user authentication, candidate management, and real-time vote-tracking functionalities. It supports various essential features required for an effective and transparent electoral process.
@@ -25,6 +25,6 @@ PUT /profile/password - Update user password.
 ------ What I learned through this ------
 
 Backend Setup: Configuring and managing server-side logic and APIs with Node.js and Express.js.
-Database Handling: Effective use of MongoDB for data storage, managing user and candidate data.
+Database Handling: Effective use of MongoDB for data storage, and managing user and candidate data.
 Frontend Integration: Building a dynamic UI with React, connecting it with the backend for real-time data updates.
 Security Implementation: Developing secure authentication mechanisms using JWTs to ensure that each vote is verified and to maintain secure user sessions.
